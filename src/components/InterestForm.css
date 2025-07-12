@@ -1,0 +1,91 @@
+/* root form container */
+.interest-form-container {
+    background-color: #252627;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    max-width: 900px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+}
+
+/* form title */
+.interest-form-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #479daf;
+    margin-bottom: 1.5rem;
+}
+
+/* form field group */
+.form-group {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* labels */
+.form-group label {
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+    color: #e0e0e0;
+}
+
+/* secondary label for spidr pin format */
+#spidrPinFormat {
+    font-size: 0.76rem;
+    color: #b0b0b0;
+}
+
+/* input fields */
+.form-group input {
+    padding: 0.65rem 0.75rem;
+    font-size: 1rem;
+    background-color: #1e1f20;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+/* styling on input focus */
+.form-group input:focus {
+    outline: none;
+    border-color: #479daf;
+}
+
+/* submit button */
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* styling on button hover */
+.submit-button:hover {
+    background-color: #0f1010;
+    color: #479daf;
+    border: 2px solid #479daf;
+}
+
+/* styling for asterisk denoting required fields */
+.required-asterisk {
+	  color: #ff6b6b; /* red for visibility */
+	  margin-left: 0.25rem;
+	  font-weight: 600;
+}
+
+/* cost guessing shortening */
+#costGuess {
+    max-width: 190px;
+}
